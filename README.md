@@ -1,53 +1,25 @@
-# Amazon-Data-Set-Project
+**Problem Statement**
 
-**Problem Statement:**
+Sales management is essential for businesses to meet increasing competition and the need for improved distribution methods to reduce costs and increase profits. This project aims to perform ETL (Extract-Transform-Load) on an Amazon dataset and analyze the sales trends on a monthly, yearly, and yearly-monthly basis. The goal is to discover key metrics and factors, and establish meaningful relationships between attributes. The findings of this project can be used to improve the company's sales strategies.
 
-Sales management has gained importance to meet increasing competition and the need for improved methods of distribution to reduce cost and to increase profits. Sales management today is the most important function in a commercial and business enterprise.  Do ETL : Extract-Transform-Load some Amazon dataset and find for me Sales-trend -> month wise , year wise , yearly_month wise  Find key metrics and factors and show the meaningful relationships between attributes. Do your own research and come up with your findings.
+**Findings**
 
+The following insights can help improve the company's sales:
 
-**Findings:**
+**Unit price:** Most unit prices fall within a range of \$180, as shown by the median value. There are no outliers, as shown in the box plot. The highest unit price observed is \$668.27.
 
-Following insights can be helpful to improve the sales of the company:
-    
+**Unit cost:** Most unit costs are within \$107, according to the median value. There are no outliers in this data, and the maximum unit cost is around \$525.
 
-* Unit Price  - Most of the unit price is within 180 dollar value as shown by the median value. The maximum unit price can be seen 668.27  and there is not any outliers as can be seen from the box plot.
+**Total profit:** The majority of total profit values are around \$290,000, as shown by the median value. However, there are more than 3 outliers for this column. The maximum total profit is observed in February and November, while it is lowest in March and August. Total profit is highest in the year 2012 and lowest in 2011. The maximum profit is obtained from cosmetics, while food items like fruits, beverages, and meat yield the lowest profit.
 
+**Units sold:** Most units sold fall within 5383 units, according to the median value. Similar to other metrics, there are no outliers in this data. The maximum units sold are 9925 units, while the minimum is 124 units. The highest number of units were sold in July, followed by February, with the lowest in August, March, and December. Maximum units were sold in 2012, followed by 2014. Clothes and cosmetics have the highest number of units sold, while meat has the fewest.
 
-* Unit Cost - Most of the unit cost is within 107 dollar as is shown by the median value. From box plots we can see here again we do not have any outliers, the maximum unit cost we have is around 525 dollars.
+**Shipping duration:** Most shipping durations are within 24 days, as indicated by the median value, with low data spread. There are no outliers, and the maximum and minimum values are 50 and 0 days, respectively.
 
+**Item type:** The most common item types are clothes, cosmetics, and office supplies.
 
-* Total Profit - 
+**Region:** The most common regions are Sub-Saharan Africa (37 occurrences) and Europe (24 occurrences).
 
-                Most of the Total Profit values is within 2.9e+05 dollars as is shown by the median value. 
-       
-                 From the box plot we can see we have more than 3 outliers for this column
-           
-                 Maximum total profit appears in months Feb and Nov , and least in Mar and Aug
-                
-                 Also the total profit is maximum for year 2012 and least in 2011
-                    
-                 And maximum profit is obtained from cosmetics and minimum with food items such as Fruits, beverages and meat.
+**Shipping day name:** Most shipments occur on Saturdays and Wednesdays, while the fewest occur on Sundays.
 
-
-
-* Units Sold - 
-
-               Most of the units Sold lies within 5383 units as can be seen from the median value. From box plots we can say again here we do not have any outliers, the maximum Units Sold is 9925 units and minimum we have is 124 units.
-
-               We can see highest units sold are in Jul month followed by Feb, and least in Aug, March and Dec
-    
-               Maximum units were sold at year 2012 and next at year 2014
-    
-               Clothes and Cosmetics have the maximum units sold, meat is minimum
-
-
-* Shipping Duration - Most of the values in shipping duration is within 24 days as is shown by the median value and also the deviation or spread of data is lesser. Clearly, we do not have any outliers here, the maximum and minimum values are 50 and 0 days.
-
-
-* Item Type - Most of the item types are Clothes, Cosmetics and Office Supplies
-
-
-* Region - The most common regions are Sub-Saharan Africa (37) and Europe (24).
-
-
-* Shipping day name - Most of the shipping is happening on Saturdays and Wednesdays and least on Sundays
+These findings provide valuable insights into the dataset and can inform decision-making to improve sales strategies. For example, the company can focus on selling cosmetics and clothes, as these items have the highest profit margins. They can also try to increase sales in July and February, as these are the months when the most units are sold. Additionally, they can work on reducing shipping durations, as this can improve customer satisfaction.
